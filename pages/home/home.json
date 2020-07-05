@@ -1,0 +1,9 @@
+{
+  "usingComponents": {
+    "dr-swiper": "/components/dr-swiper/dr-swiper",
+    "dr-recommond": "/components/dr-recommond/dr-recommond",
+    "dr-table-control": "/components/dr-table-control/dr-table-control",
+    "dr-goods": "/components/dr-goods/dr-goods"
+  },
+  "navigationBarTitleText": "购物街"
+}

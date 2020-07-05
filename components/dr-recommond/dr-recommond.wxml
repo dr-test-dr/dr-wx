@@ -1,0 +1,7 @@
+<!--pages/home/dr-recommond/dr-recommond.wxml-->
+<view class="content">
+  <view wx:for="{{recommondList}}" wx:key="{{index}}">
+    <image class="recommondImg" src="{{item.img}}"/>
+    <view class="title"> {{item.orignPrice}} </view>
+  </view>
+</view>

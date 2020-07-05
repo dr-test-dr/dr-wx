@@ -1,0 +1,6 @@
+<!--components/dr-check-ico/dr-check-ico.wxml-->
+<icon type="success" size='18' 
+  class='check-icon'
+  style='border-color: {{isCheck ? "#ff5777": "#aaa"}};' 
+  color='{{isCheck ? "#ff5777": "#fff"}}'
+></icon>

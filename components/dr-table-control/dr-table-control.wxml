@@ -1,0 +1,10 @@
+<!--components/dr-table-control/dr-table-control.wxml-->
+<view class="table_content">
+  <block wx:for="{{title}}" wx:key="{{index}}" >
+    <view class="table_item {{index == currentIndex? 'active':''}}" 
+    data-current-item="{{index}}" bindtap="changeItem">
+    <text>{{item}}</text>
+    </view>
+  </block>
+</view>
+

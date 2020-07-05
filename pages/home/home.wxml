@@ -1,0 +1,14 @@
+<!--pages/home/home.wxml-->
+<scroll-view scroll-y>
+  <!-- 第一部分 轮播图 -->
+  <dr-swiper imageList="{{imageList}}"></dr-swiper>
+
+  <!-- 第二部分 -->
+  <dr-recommond recommondList="{{recommondList}}"></dr-recommond>
+
+  <!-- 第三部分 -->
+  <dr-table-control title="{{title}}" bind:showGoods="changeCurrentIndex"></dr-table-control>  
+
+  <!-- 商品展示 -->
+  <dr-goods goodsList="{{goodsList}}"></dr-goods>
+</scroll-view>

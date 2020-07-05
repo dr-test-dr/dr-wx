@@ -1,0 +1,6 @@
+<!--components/dr-swiper/dr-swiper.wxml-->
+<swiper indicator-dots autoplay circular class="swiper">
+  <swiper-item wx:for="{{imageList}}" wx:key="{{index}}">
+    <image src="{{item}}"></image>
+  </swiper-item>
+</swiper>

@@ -1,0 +1,15 @@
+/* pages/home/dr-recommond/dr-recommond.wxss */
+.content{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin: 20rpx;
+  justify-content: space-around;
+}
+.recommondImg{
+  width: 160rpx;
+  height: 160rpx;
+}
+.title{
+  text-align: center;
+}

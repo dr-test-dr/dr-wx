@@ -1,7 +1,0 @@
-<!--pages/mine/mine.wxml-->
-<view>
-  <dr-header/>
-  <dr-info/>
-  <dr-list-view infos="{{orderList}}"/>
-  <dr-list-view infos="{{serviceList}}"/>
-</view>

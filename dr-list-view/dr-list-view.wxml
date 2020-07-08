@@ -1,0 +1,10 @@
+<!--pages/mine/dr-list-view/dr-list-view.wxml-->
+<view class='list-view'>
+  <block wx:for="{{infos}}" wx:key="index">
+    <view class='list-item'>
+      <image src="/images/mine/{{item.icon}}"/>
+      <text>{{item.info}}</text>
+    </view>
+  </block>
+</view>
+

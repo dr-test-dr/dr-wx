@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "dr-header": "/components/dr-header/dr-header",
+    "dr-info": "/components/dr-info/dr-info",
+    "dr-list-view": "/components/dr-list-view/dr-list-view"
+  },
+  "navigationBarTitleText": "我的"
+}
